@@ -10,6 +10,7 @@ import (
 
 	"github.com/bwmarrin/discordgo"
 	"github.com/ryanmiville/amigobot"
+	"github.com/ryanmiville/amigobot/fantano"
 	"github.com/ryanmiville/amigobot/greet"
 	"github.com/ryanmiville/amigobot/mfp/cals"
 	"github.com/ryanmiville/amigobot/mfp/htmlparse"
@@ -26,6 +27,7 @@ var handlers = []amigobot.Handler{
 	&yn.Handler{},
 	&greet.Handler{},
 	&remindme.Handler{},
+	&fantano.Handler{},
 }
 
 // Variables used for command line parameters
