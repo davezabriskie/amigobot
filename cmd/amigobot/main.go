@@ -27,7 +27,7 @@ var handlers = []amigobot.Handler{
 	&yn.Handler{},
 	&greet.Handler{},
 	&remindme.Handler{},
-	&fantano.Handler{},
+	&fantano.Handler{Searcher: fantano.YoutubeSearch{DeveloperKey: "<<SOME_KEY>>"}},
 }
 
 // Variables used for command line parameters
