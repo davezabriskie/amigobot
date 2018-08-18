@@ -20,6 +20,11 @@ Greet whomever is specified. This command is mostly for example purposes for add
 
 ![?greet screenshot](https://user-images.githubusercontent.com/2359050/38431625-d3920ade-3992-11e8-91d0-3bb0b22d3f99.png)
 
+## ?fantano [query term]
+If no query term, return the score of the latest review done by The Needle Drop on Youtube. If a query term is supplied, return the score for the first video returned for that search.
+
+
+
 # Contributing
 This project uses dep for dependency management. If you need to add a new dependency, [here](https://golang.github.io/dep/docs/installation.html) are instructions for installing it. Reference [the docs](https://golang.github.io/dep/docs/daily-dep.html#adding-a-new-dependency) for how to add dependencies. The current dependencies are packaged with the repo in the [vendor](https://github.com/ryanmiville/amigobot/tree/master/vendor) directory.
 
